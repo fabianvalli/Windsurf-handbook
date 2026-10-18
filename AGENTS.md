@@ -26,5 +26,8 @@ Read `README.md`, `HANDOFF.md`, and the relevant article/manifest entry before e
 - Keep photo tops aligned in column groups, with steps stacked on narrow phones. Check at 320px and 390px after layout changes.
 - Preserve the accepted dock and general-sailing artwork. Right-of-way examples show boards and rigs **without people**. Retain both wind-direction captions and the hand-forward mnemonic in the tacks illustration.
 - Treat the 2009 PDF and unrelated prototype as historical reference. Rewrite current procedures from Fabian's supplied instructions; keep unresolved sections marked for review.
+- Retain the handbook's instructional text, anatomy/glossary, and accepted diagrams. Fabian's latest decision is to compare the existing CSC lessons later and then decide whether a merge is needed; do not replace these sections with links solely because another page covers the topic. Existing lesson links are supplementary.
+- Link to maintained CSC pages for current club policies, rating requirements, sailing areas, and hours. Distinguish historical instruction from current club policy; retaining text does not approve it as a 2026 procedure.
+- Keep preparation before technique. Do not add per-section Next footer links. Preserve chapter tabs, sidebar shortcuts, and navigation between chapters. Optional Related links exclude the following section and destinations already linked in the prose.
 - Do not invent club policies or hardcode opening times. Link to maintained CSC resources.
 - Record material content changes and remaining review items in the manifest and handoff. Update validation evidence for changed behavior; avoid unrelated refactors.

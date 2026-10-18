@@ -189,5 +189,59 @@
     "not_included": "Original PDF, original checkout photos, separate CSC prototype clone, credentials, local source downloads, and temporary files",
     "commits_before_import": 0,
     "pushes_before_import": 0
+  },
+  "sequence_and_shared_topics": {
+    "date": "2026-10-17",
+    "scope": "All 24 topics across the three reading pages",
+    "principle": "Retain handbook instruction, original reference images, and accepted color diagrams. Compare existing CSC lessons later with Fabian before deciding whether content should merge. Current rules, ratings, areas, and hours use maintained site links.",
+    "changes": [
+      "Orientation no longer duplicates rating/area/hour links or jumps to rig/wind topics",
+      "Section02 is Club rules and procedures, grouping maintained rules/conduct/ratings/areas/fleet/hours destinations",
+      "Safety preparation and self-rescue have distinct roles; historical instruction and recovery locations are retained pending review",
+      "All ten section04 photos and signout/return steps retained; only general hours resource consolidated into02",
+      "Dock instruction and accepted color diagram retained; carrying lesson links back to dock preparation to avoid repeating its placement instructions",
+      "Before-you-sail checklist replaces old exam assumptions and follows sections01–06",
+      "Ten local skill lessons and their original figures retained; Downwind precedes Jibe; later practice labelled optional",
+      "Local anatomy illustration and full glossary retained; equipment repair links the published club tutorial",
+      "Per-section Next links removed at user request; Related excludes the adjacent topic and destinations already in prose",
+      "Repeated generic sidebar resource list removed",
+      "Duplicated right-of-way rule list, blanket towing claim and inconsistent old points-of-sail ranges removed; accepted diagrams/examples retained",
+      "Unique historical rigging and knot material remains visibly pending review; tuning image moved next to its text"
+    ],
+    "checks": [
+      "Normal build passed all 24-section coverage, local links, anchors, images, and heading structure after instructional content was restored",
+      "Independent read-only review of the seven opening topics found no actionable flow or title issues",
+      "Related destinations checked across all three chapters; chapter navigation retained",
+      "Independent source audit confirmed substantive text in all ten lessons, nine original lesson/anatomy image references, all 46 glossary terms, all seven accepted color assets, and all ten checkout photos",
+      "Browser verified the restored Starting lesson text and original A–D illustration",
+      "Earlier 320px browser checks verified the ten-photo checkout; shared responsive styles are unchanged",
+      "Earlier 320px and 390px layout checks found no horizontal overflow (305/305 and 375/375 client/scroll widths)",
+      "Existing guide subpage destinations verified through the site Article Index; conduct and repair PDFs returned HTTP200"
+    ],
+    "proof": [
+      "sequence-club-rules-desktop.png",
+      "instruction-retained-desktop.png"
+    ],
+    "superseded_proof": "sequence-safety-320.png and sequence-skills-390.png depict an interim link-only version. They are not evidence of the retained instructional content.",
+    "sources": [
+      "https://www.cal-sailing.org/resources/csc-files",
+      "https://www.cal-sailing.org/operating-rules",
+      "https://www.cal-sailing.org/lessons-menu/windsurfing/the-10-step-guide-to-windsurfing"
+    ],
+    "status": "Local editorial changes for user review; no new commit, push or deployment"
+  },
+  "section_next_links_removed": {
+    "date": "2026-10-17",
+    "request": "Remove redundant per-section Next links; keep everything else as it is",
+    "scope": "All three preview chapters and matching Joomla bodies",
+    "checks": [
+      "No per-section Next labels remain in any of the 24 topics",
+      "Related-link filtering and chapter navigation are unchanged",
+      "Normal build passed section coverage, links, anchors, assets and heading checks",
+      "Browser verified Getting started ends directly before Club rules and procedures"
+    ],
+    "proof": "section-footer-without-next.png",
+    "commits_made": 0,
+    "pushes_made": 0
   }
 }

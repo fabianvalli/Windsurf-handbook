@@ -15,8 +15,8 @@ CSS = ['/templates/ja_edenite_ii/local/css/themes/orange/bootstrap.css', '/templ
 PROPOSED_ROUTE = '/lessons-menu/windsurfing/handbook'
 IMAGE_ROUTE = '/images/windsurfing/handbook-2026'
 CHAPTERS = [
-    dict(slug='index', title='Before you sail', description='Get ready for your session, learn how the club works, and know how to get back.', topics=['getting-started', 'ratings-and-areas', 'safety-and-help', 'check-out-and-return', 'launching-and-landing', 'self-rescue', 'novice-checklist']),
-    dict(slug='sailing-skills', title='Sailing skills', description='Work through the fundamentals, from reading the wind to making your first turns.', topics=['wind-and-direction', 'right-of-way', 'carrying-the-rig', 'uphauling', 'starting', 'stance', 'steering', 'tacking', 'jibing', 'sailing-downwind', 'high-wind', 'freestyle']),
+    dict(slug='index', title='Before you sail', description='Start with the club, check its rules, and prepare for your session from signout to return.', topics=['getting-started', 'ratings-and-areas', 'safety-and-help', 'check-out-and-return', 'launching-and-landing', 'self-rescue', 'novice-checklist']),
+    dict(slug='sailing-skills', title='Sailing skills', description='Use the wind and right-of-way illustrations, then practice the handbook’s lessons in order. Higher-wind practice comes later.', topics=['wind-and-direction', 'right-of-way', 'carrying-the-rig', 'uphauling', 'starting', 'stance', 'steering', 'tacking', 'sailing-downwind', 'jibing', 'high-wind', 'freestyle']),
     dict(slug='equipment-reference', title='Equipment & reference', description='Know your board and rig, check your equipment, and look up the terms used in lessons.', topics=['parts-of-the-rig', 'rigging', 'equipment-care', 'knots', 'glossary']),
 ]
 topic_chapter = {s: c for c in CHAPTERS for s in c['topics']}
@@ -34,14 +34,6 @@ def rewrite_links(body):
     return body
 
 
-def site_resources(keys):
-    result = '<ul>'
-    for key in keys:
-        label, path = manifest['site_links'][key]
-        result += '<li><a href="' + escape(SITE + path, quote=True) + '">' + escape(label) + '</a></li>'
-    return result + '</ul>'
-
-
 def sidebar(chapter):
     body = '<nav aria-label="Handbook chapters"><h2 class="module-title">In this handbook</h2><ol class="nav nav-pills nav-stacked hb-chapter-links">'
     for n, c in enumerate(CHAPTERS, 1):
@@ -51,7 +43,7 @@ def sidebar(chapter):
     body += '</ol></nav><nav aria-label="Sections on this page"><h3>On this page</h3><ol class="hb-section-links">'
     for slug in chapter['topics']:
         body += f'<li><a href="#{slug}">{escape(topics[slug]["title"])}</a></li>'
-    body += '</ol></nav><nav aria-label="Club resources"><h3>At the club</h3>' + site_resources(['lessons', 'ratings', 'areas', 'hours']) + '</nav>'
+    body += '</ol></nav>'
     return '<aside class="hb-sidebar" aria-label="Handbook shortcuts"><details class="hb-contents" open><summary><strong>Handbook shortcuts</strong><span class="hb-current-chapter">' + escape(chapter['title']) + '</span></summary><div class="hb-contents-body">' + body + '</div></details></aside>'
 
 
@@ -67,10 +59,16 @@ def section_body(slug):
     p = topics[slug]
     body = (ROOT / 'articles' / (slug + '.html')).read_text(encoding='utf-8')
     body = rewrite_links(re.sub(r'<(/?)h2\b', r'<\1h3', body))
-    related = list(dict.fromkeys(p['related']))[:3]
+    chapter = topic_chapter[slug]
+    position = chapter['topics'].index(slug)
+    following = chapter['topics'][position + 1] if position + 1 < len(chapter['topics']) else None
+    prose_links = set(re.findall(r'<a\b[^>]*\bhref="([^"]+)"', body))
+    related = [s for s in dict.fromkeys(p['related'])
+               if s != following and topic_url(s) not in prose_links][:3]
     if related:
-        body += '<nav class="hb-related" aria-label="Related to ' + escape(p['title'], quote=True) + '"><strong>Related:</strong> '
-        body += ' · '.join('<a href="' + topic_url(s) + '">' + escape(topics[s]['title']) + '</a>' for s in related) + '</nav>'
+        body += '<nav class="hb-related" aria-label="Continue after ' + escape(p['title'], quote=True) + '">'
+        body += '<p><strong>Related:</strong> ' + ' · '.join('<a href="' + topic_url(s) + '">' + escape(topics[s]['title']) + '</a>' for s in related) + '</p>'
+        body += '</nav>'
     return body
 
 

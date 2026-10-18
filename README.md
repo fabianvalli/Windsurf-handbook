@@ -1,6 +1,6 @@
 # CSC windsurfing handbook: HTML migration
 
-This is a local working draft for the existing **cal-sailing.org** website. It has not been published. The April 2009 material is now grouped into three subject pages: Before you sail, Sailing skills, and Equipment & reference. The 24 topics are collapsible sections within those pages, with related links opening the relevant section. Procedure rewrites and replacement artwork will follow section by section.
+This is a local working draft for the existing **cal-sailing.org** website. It has not been published. The April 2009 material is now grouped into three subject pages: Before you sail, Sailing skills, and Equipment & reference. The 24 topics are collapsible sections within those pages, with related links opening the relevant section. Handbook instruction and illustrations remain available for review; current club policies, ratings, sailing areas, and hours link to maintained CSC resources.
 
 Repository: [fabianvalli/Windsurf-handbook](https://github.com/fabianvalli/Windsurf-handbook). This project converts the current handbook document to a set of HTML pages that can be added to the existing CSC website.
 
@@ -37,7 +37,7 @@ Before switching computers, have any approved changes committed and pushed. On t
 - Open `editorial/review.html` for the topic-by-topic migration map and pending corrections.
 - `editorial/repository-review.html` records what is useful in the separately cloned redesign prototype and its content limitations.
 - `manifest.json` records the source PDF pages, related topics, site links, and review status.
-- `editorial/source-2009.txt` retains the historical source, including policy and repair sections that are now represented by links to maintained site resources.
+- `editorial/source-2009.txt` retains the extracted historical source for editorial reference. Its inclusion does not establish any historical procedure as current club policy.
 
 ## Editing
 
@@ -76,6 +76,14 @@ Section 04 was rewritten on 2026-10-17 from the user-provided tablet/phone proce
 
 The web photos preserve the complete supplied images and link to larger views. WebP copies are proportionally reduced to at most 1600 pixels; originals remain outside this repository. `editorial/checkout-photo-sources.json` records their filenames, asset mapping, and encoding details. These originals are optional: the included web copies are sufficient for normal work. To reprocess the originals, install Pillow and run `python tools/prepare_checkout_photos.py --source "/path/to/original/photos"`, then run the normal build. The optional `source/` folder is ignored by Git. Phone layouts stack the steps and images; the desktop layout groups related steps side by side. Shared text rows align photo tops across the two- and three-column step groups, even when their instructions wrap differently.
 
+## Reading sequence and shared topics
+
+The editorial pass of October 17, 2026 keeps orientation, club rules, safety, checkout, dock handling, recovery, and the readiness checklist in that order. Section 02 now groups the links to rules, conduct, ratings, boundaries, fleet, and hours; section 01 no longer repeats them or jumps into technique. Section 04 retains the accepted checkout workflow and photos.
+
+Fabian's latest decision is to retain the handbook's instructional text, anatomy/glossary, original reference images, and accepted color diagrams. Existing CSC lesson links are supplementary. We will review the main site's other pages later and then decide whether a content merge is needed. Current club policies, rating requirements, sailing areas, and hours continue to link to maintained resources. Downwind comes before Jibe, with optional higher-wind practice at the end. Historical instruction still requires review and has not been approved as 2026 club policy.
+
+Per-section Next footer links have been removed at Fabian's request. Chapter tabs, sidebar shortcuts, and navigation between chapters remain. Optional related links exclude the following section and destinations already linked in the prose; shared club resources are presented in their relevant sections.
+
 ## Maintenance
 
 After import, Joomla can be the editing source of truth. Keep these HTML sources synchronized only if a source-controlled workflow is desired; do not maintain independent divergent copies. Record actual content review dates and review triggers such as equipment, dock, rating, or procedure changes. This draft does not schedule an automation or publish anything.
@@ -84,4 +92,4 @@ After import, Joomla can be the editing source of truth. Keep these HTML sources
 
 `https://github.com/calsailing/website-redesign` was reviewed in a separate local checkout. It contains one self-contained HTML prototype, not the full live Joomla source. The user confirmed that useful context can come from this prototype and the rest must come from the actual site. The live site remains the visual reference for this handbook. The prototype clone has not been edited and is not required to work on this repository.
 
-The user requires explicit consent before **any commit or push**. The initial handbook import and push to this repository’s `main` branch were explicitly authorized on October 17, 2026. Future commits and pushes still require explicit consent; this authorization does not publish the handbook to the CSC website.
+The user requires explicit consent before **any commit or push**. The initial handbook import and push to this repository’s `main` branch were explicitly authorized on October 17, 2026. Fabian also approved committing the reviewed editorial and navigation revision and pushing it to `main` on October 17, 2026. This records authorization, not confirmation of a completed push; check Git history and the remote for the resulting state. Future commits and pushes require new explicit consent. Neither approval publishes the handbook to the CSC website.

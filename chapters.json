@@ -2,7 +2,7 @@
   {
     "slug": "index",
     "title": "Before you sail",
-    "description": "Get ready for your session, learn how the club works, and know how to get back.",
+    "description": "Start with the club, check its rules, and prepare for your session from signout to return.",
     "topics": [
       "getting-started",
       "ratings-and-areas",
@@ -16,7 +16,7 @@
   {
     "slug": "sailing-skills",
     "title": "Sailing skills",
-    "description": "Work through the fundamentals, from reading the wind to making your first turns.",
+    "description": "Use the wind and right-of-way illustrations, then practice the handbook’s lessons in order. Higher-wind practice comes later.",
     "topics": [
       "wind-and-direction",
       "right-of-way",
@@ -26,8 +26,8 @@
       "stance",
       "steering",
       "tacking",
-      "jibing",
       "sailing-downwind",
+      "jibing",
       "high-wind",
       "freestyle"
     ]

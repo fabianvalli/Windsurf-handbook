@@ -109,6 +109,8 @@
 .hb-app .hb-image-caption { margin: 0; max-height: 5em; overflow: auto; font-size: 13px; line-height: 1.5; }
 .hb-app .hb-section-body dd { margin-bottom: 16px; }
 .hb-app .hb-related { margin-top: 24px; padding-top: 16px; border-top: 1px solid; border-color: inherit; font-size: 13px; line-height: 1.8; }
+.hb-app .hb-related p { margin: 0; }
+.hb-app .hb-related p + p { margin-top: 6px; }
 .hb-app .hb-next-chapter { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin: 28px 0; flex-wrap: wrap; }
 .hb-app .hb-credit { font-size: 12px; line-height: 1.6; }
 .hb-app .hb-sidebar { order: 2; flex: 0 0 274px; position: sticky; top: 20px; align-self: flex-start; padding: 34px 24px 24px 8px; }
