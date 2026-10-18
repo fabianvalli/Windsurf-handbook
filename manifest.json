@@ -1,0 +1,610 @@
+{
+  "title": "CSC Windsurfing Handbook",
+  "source_pdf": "https://static.cal-sailing.org/images/official_files/windsurf_0409.pdf",
+  "source_edition": "April 2009",
+  "migration_date": "2026-10-16",
+  "published": false,
+  "pages": [
+    {
+      "slug": "getting-started",
+      "title": "Getting started at CSC",
+      "group": "Before you sail",
+      "summary": "Find lessons, join the club, and plan your first session.",
+      "source_pages": [
+        3,
+        4
+      ],
+      "related": [
+        "novice-checklist",
+        "check-out-and-return",
+        "self-rescue"
+      ],
+      "site_links": [
+        "lessons",
+        "calendar"
+      ],
+      "review_status": "New orientation; review pending",
+      "editorial_notes": "Replaces old fixed lesson times and membership/work requirements with maintained site links.",
+      "learning": false
+    },
+    {
+      "slug": "ratings-and-areas",
+      "title": "Ratings and sailing areas",
+      "group": "Before you sail",
+      "summary": "Check current requirements and the boundaries for your rating.",
+      "source_pages": [
+        3,
+        4,
+        5,
+        6,
+        17,
+        18
+      ],
+      "related": [
+        "getting-started",
+        "novice-checklist",
+        "self-rescue"
+      ],
+      "site_links": [
+        "hours"
+      ],
+      "review_status": "Maintained links; review pending",
+      "editorial_notes": "Old rating tests, hours, PFD exceptions, and boundary maps are retained only in editorial/source-2009.txt. Do not republish them as current policy.",
+      "learning": false
+    },
+    {
+      "slug": "check-out-and-return",
+      "title": "Checking equipment out and back in",
+      "group": "Before you sail",
+      "summary": "Choose your equipment, sign out by tablet or phone, and complete your return.",
+      "source_pages": [
+        6,
+        7
+      ],
+      "related": [
+        "launching-and-landing",
+        "equipment-care",
+        "rigging"
+      ],
+      "site_links": [
+        "hours",
+        "damage"
+      ],
+      "review_status": "2026 procedure rewrite; user review pending",
+      "editorial_notes": "Rewritten from the user-provided current tablet/phone procedure and ten supplied photos. Includes equipment IDs, on-site/location/login requirements, damage reporting, active-signout verification, and no equipment time limit. Replaces the historical paper signout and one-hour restrictions. Final user review pending.",
+      "learning": false,
+      "content_updated": "2026-10-17",
+      "procedure_source": "User-provided procedure and screenshots, 2026-10-17",
+      "photo_sources": "editorial/checkout-photo-sources.json"
+    },
+    {
+      "slug": "launching-and-landing",
+      "title": "Launching and landing",
+      "group": "Before you sail",
+      "summary": "Handle the board and rig at the dock.",
+      "source_pages": [
+        6,
+        7
+      ],
+      "related": [
+        "carrying-the-rig",
+        "uphauling",
+        "check-out-and-return"
+      ],
+      "site_links": [
+        "ratings"
+      ],
+      "review_status": "2009 text; 2026 review pending",
+      "editorial_notes": "Review dock layout and landing procedure. The current ratings page describes stopping short of the dock and paddling in; resolve before publication.",
+      "learning": false,
+      "illustration": {
+        "asset": "dock-layout-color-v1.png",
+        "status": "User accepted for replacement on 2026-10-16",
+        "source": "Built-in image generator, using the original diagram and user-provided dock photos"
+      }
+    },
+    {
+      "slug": "rigging",
+      "title": "Checking and tuning the rig",
+      "group": "Equipment and reference",
+      "summary": "Understand the basic rig checks and handle sails carefully.",
+      "source_pages": [
+        7
+      ],
+      "related": [
+        "parts-of-the-rig",
+        "knots",
+        "equipment-care"
+      ],
+      "site_links": [
+        "fleet",
+        "lessons"
+      ],
+      "review_status": "2009 text; 2026 review pending",
+      "editorial_notes": "Confirm tuning recommendations against current sails; the 2009 text explicitly describes equipment of its time.",
+      "learning": false
+    },
+    {
+      "slug": "self-rescue",
+      "title": "Self-rescue and getting back",
+      "group": "Before you sail",
+      "summary": "Know how to return when sailing is no longer working.",
+      "source_pages": [
+        8
+      ],
+      "related": [
+        "ratings-and-areas",
+        "launching-and-landing",
+        "equipment-care"
+      ],
+      "site_links": [
+        "areas",
+        "lessons"
+      ],
+      "review_status": "2009 text; 2026 review pending",
+      "editorial_notes": "Priority review: local landmarks, recovery destinations, conditions for each method, rig release, rescue signals, and current paddle-test expectations.",
+      "learning": false
+    },
+    {
+      "slug": "equipment-care",
+      "title": "Equipment care and damage",
+      "group": "Equipment and reference",
+      "summary": "Find the current reporting route and repair instruction.",
+      "source_pages": [
+        7,
+        8,
+        9
+      ],
+      "related": [
+        "check-out-and-return",
+        "rigging",
+        "parts-of-the-rig"
+      ],
+      "site_links": [
+        "fleet"
+      ],
+      "review_status": "Resource page; procedure update pending",
+      "editorial_notes": "Keep liability limits, repair restrictions, workshop locations, resin/solvent instructions, and old fleet-specific advice in the editorial source pending replacement.",
+      "learning": false
+    },
+    {
+      "slug": "safety-and-help",
+      "title": "Safety and asking for help",
+      "group": "Before you sail",
+      "summary": "Prepare for cold water and recognize when you need help.",
+      "source_pages": [
+        8,
+        13
+      ],
+      "related": [
+        "self-rescue",
+        "ratings-and-areas",
+        "novice-checklist"
+      ],
+      "site_links": [
+        "lessons",
+        "incident"
+      ],
+      "review_status": "2009 text; 2026 review pending",
+      "editorial_notes": "Priority review: PFD guidance, equipment requirements, rescue signals, and the current recovery locations. Original third-dock/shore-walking advice is historical.",
+      "learning": false
+    },
+    {
+      "slug": "wind-and-direction",
+      "title": "Wind, direction, and points of sail",
+      "group": "Learn to windsurf",
+      "summary": "Recognize port and starboard tack and the main points of sail.",
+      "source_pages": [
+        9,
+        10
+      ],
+      "related": [
+        "right-of-way",
+        "steering",
+        "glossary"
+      ],
+      "site_links": [
+        "videos"
+      ],
+      "review_status": "2009 text; 2026 review pending",
+      "editorial_notes": "Color diagrams installed. Resolve overlapping angle ranges in the original text and glossary before review sign-off.",
+      "learning": false,
+      "illustrations": [
+        {
+          "asset": "port-starboard-tacks-color-v2.png",
+          "status": "User accepted; installed locally on 2026-10-16",
+          "source": "Built-in image generator; includes hand-forward and wind-direction captions"
+        },
+        {
+          "asset": "points-of-sail-color-v1.png",
+          "status": "User accepted; installed locally on 2026-10-16",
+          "source": "Built-in image generator, matching the accepted dock illustration"
+        }
+      ]
+    },
+    {
+      "slug": "right-of-way",
+      "title": "Sharing the water",
+      "group": "Learn to windsurf",
+      "summary": "Review the handbook’s rules for meeting other sailors.",
+      "source_pages": [
+        9
+      ],
+      "related": [
+        "wind-and-direction",
+        "tacking",
+        "jibing"
+      ],
+      "site_links": [
+        "lessons"
+      ],
+      "review_status": "2009 text; 2026 review pending",
+      "editorial_notes": "Color flowchart installed for two sailing vessels. Priority text review remains: correct/qualify the original blanket statement giving towing vessels right of way.",
+      "learning": false,
+      "illustration": {
+        "asset": "right-of-way-color-v1.png",
+        "status": "User accepted; installed locally on 2026-10-16",
+        "source": "Built-in image generator; flowchart checked against USCG Rules 12, 13, 16 and 17"
+      },
+      "interactive_examples": {
+        "assets": [
+          "right-of-way-overtaking-v2.png",
+          "right-of-way-opposite-tacks-v2.png",
+          "right-of-way-same-tack-v3.png"
+        ],
+        "date": "2026-10-16",
+        "status": "Created at user request and installed locally; illustration review pending",
+        "interaction": "Hover, keyboard focus, click/tap; Close, Escape and outside-click dismissal",
+        "artwork": "Two boards and rigs per scene, without people"
+      }
+    },
+    {
+      "slug": "carrying-the-rig",
+      "title": "Carrying the board and rig",
+      "group": "Learn to windsurf",
+      "summary": "Carry the equipment while keeping the sail oriented to the wind.",
+      "source_pages": [
+        11
+      ],
+      "related": [
+        "uphauling",
+        "wind-and-direction"
+      ],
+      "site_links": [
+        "videos",
+        "guide"
+      ],
+      "review_status": "2009 text; 2026 review pending",
+      "editorial_notes": "Preserved from the PDF; modernize wording and diagrams when this section is reviewed.",
+      "learning": true
+    },
+    {
+      "slug": "uphauling",
+      "title": "Uphauling the sail",
+      "group": "Learn to windsurf",
+      "summary": "Lift the sail and settle into the basic position.",
+      "source_pages": [
+        11,
+        12
+      ],
+      "related": [
+        "carrying-the-rig",
+        "starting",
+        "self-rescue"
+      ],
+      "site_links": [
+        "videos",
+        "guide"
+      ],
+      "review_status": "2009 text; 2026 review pending",
+      "editorial_notes": "Preserved from the PDF; modernize wording and diagrams when this section is reviewed.",
+      "learning": true
+    },
+    {
+      "slug": "starting",
+      "title": "Starting and controlling power",
+      "group": "Learn to windsurf",
+      "summary": "Move from the basic position to sailing.",
+      "source_pages": [
+        12
+      ],
+      "related": [
+        "uphauling",
+        "stance",
+        "wind-and-direction"
+      ],
+      "site_links": [
+        "videos",
+        "guide"
+      ],
+      "review_status": "2009 text; 2026 review pending",
+      "editorial_notes": "Preserved from the PDF; modernize wording and diagrams when this section is reviewed.",
+      "learning": true
+    },
+    {
+      "slug": "stance",
+      "title": "Sailing stance and balance",
+      "group": "Learn to windsurf",
+      "summary": "Keep your stance balanced as the wind changes.",
+      "source_pages": [
+        12,
+        13
+      ],
+      "related": [
+        "starting",
+        "steering",
+        "wind-and-direction"
+      ],
+      "site_links": [
+        "videos",
+        "guide"
+      ],
+      "review_status": "2009 text; 2026 review pending",
+      "editorial_notes": "Preserved from the PDF; modernize wording and diagrams when this section is reviewed.",
+      "learning": true
+    },
+    {
+      "slug": "steering",
+      "title": "Steering upwind and downwind",
+      "group": "Learn to windsurf",
+      "summary": "Use the sail position to change the board’s direction.",
+      "source_pages": [
+        13,
+        14
+      ],
+      "related": [
+        "stance",
+        "tacking",
+        "wind-and-direction"
+      ],
+      "site_links": [
+        "videos",
+        "guide"
+      ],
+      "review_status": "2009 text; 2026 review pending",
+      "editorial_notes": "Preserved from the PDF; modernize wording and diagrams when this section is reviewed.",
+      "learning": true
+    },
+    {
+      "slug": "tacking",
+      "title": "Tacking: turning through the wind",
+      "group": "Learn to windsurf",
+      "summary": "Change direction by turning the bow into the wind.",
+      "source_pages": [
+        14
+      ],
+      "related": [
+        "steering",
+        "jibing",
+        "wind-and-direction"
+      ],
+      "site_links": [
+        "videos",
+        "guide"
+      ],
+      "review_status": "2009 text; 2026 review pending",
+      "editorial_notes": "Preserved from the PDF; modernize wording and diagrams when this section is reviewed.",
+      "learning": true
+    },
+    {
+      "slug": "jibing",
+      "title": "The nonplaning jibe",
+      "group": "Learn to windsurf",
+      "summary": "Change direction by turning away from the wind.",
+      "source_pages": [
+        14,
+        15
+      ],
+      "related": [
+        "tacking",
+        "sailing-downwind",
+        "wind-and-direction"
+      ],
+      "site_links": [
+        "videos",
+        "guide"
+      ],
+      "review_status": "2009 text; 2026 review pending",
+      "editorial_notes": "Preserved from the PDF; modernize wording and diagrams when this section is reviewed.",
+      "learning": true
+    },
+    {
+      "slug": "sailing-downwind",
+      "title": "Sailing downwind",
+      "group": "Learn to windsurf",
+      "summary": "Practice a run and return to a normal sailing position.",
+      "source_pages": [
+        15
+      ],
+      "related": [
+        "jibing",
+        "high-wind",
+        "wind-and-direction"
+      ],
+      "site_links": [
+        "videos",
+        "guide"
+      ],
+      "review_status": "2009 text; 2026 review pending",
+      "editorial_notes": "Preserved from the PDF; modernize wording and diagrams when this section is reviewed.",
+      "learning": true
+    },
+    {
+      "slug": "high-wind",
+      "title": "Building skills in higher winds",
+      "group": "Learn to windsurf",
+      "summary": "Understand how the handbook adapts the basic skills to stronger wind.",
+      "source_pages": [
+        15,
+        16
+      ],
+      "related": [
+        "sailing-downwind",
+        "freestyle",
+        "self-rescue"
+      ],
+      "site_links": [
+        "videos",
+        "guide"
+      ],
+      "review_status": "2009 text; 2026 review pending",
+      "editorial_notes": "Preserved from the PDF; modernize wording and diagrams when this section is reviewed.",
+      "learning": true
+    },
+    {
+      "slug": "freestyle",
+      "title": "Light-wind practice and freestyle",
+      "group": "Learn to windsurf",
+      "summary": "Explore the original guide’s additional balance and rig-handling exercises.",
+      "source_pages": [
+        16
+      ],
+      "related": [
+        "high-wind",
+        "wind-and-direction"
+      ],
+      "site_links": [
+        "videos",
+        "guide"
+      ],
+      "review_status": "2009 text; 2026 review pending",
+      "editorial_notes": "Review which exercises belong in a beginner handbook, particularly high-wind head dips and historical anecdotes.",
+      "learning": true
+    },
+    {
+      "slug": "knots",
+      "title": "Useful knots",
+      "group": "Equipment and reference",
+      "summary": "Identify the knots used around the club and in the original rigging guide.",
+      "source_pages": [
+        19
+      ],
+      "related": [
+        "rigging",
+        "parts-of-the-rig"
+      ],
+      "site_links": [
+        "lessons"
+      ],
+      "review_status": "2009 text; 2026 review pending",
+      "editorial_notes": "Review improvised harness-line and downhaul advice. Redraw the knot illustrations with clear over/under crossings.",
+      "learning": false
+    },
+    {
+      "slug": "glossary",
+      "title": "Windsurfing glossary",
+      "group": "Equipment and reference",
+      "summary": "Look up sailing directions, equipment names, and common instructions.",
+      "source_pages": [
+        19,
+        20,
+        21
+      ],
+      "related": [
+        "wind-and-direction",
+        "parts-of-the-rig"
+      ],
+      "site_links": [
+        "guide"
+      ],
+      "review_status": "2009 text; 2026 review pending",
+      "editorial_notes": "Review old fleet descriptions and workshop locations. Check the original CE/CLR wording and all angle ranges.",
+      "learning": false
+    },
+    {
+      "slug": "parts-of-the-rig",
+      "title": "Parts of the board and rig",
+      "group": "Equipment and reference",
+      "summary": "Put names to the equipment used in lessons.",
+      "source_pages": [
+        21
+      ],
+      "related": [
+        "rigging",
+        "glossary",
+        "carrying-the-rig"
+      ],
+      "site_links": [
+        "fleet"
+      ],
+      "review_status": "2009 text; 2026 review pending",
+      "editorial_notes": "Replace the raster illustration with an editable SVG during the illustration pass.",
+      "learning": false
+    },
+    {
+      "slug": "novice-checklist",
+      "title": "Novice study checklist",
+      "group": "Before you sail",
+      "summary": "Use the original questions to identify topics to review.",
+      "source_pages": [
+        18
+      ],
+      "related": [
+        "ratings-and-areas",
+        "self-rescue",
+        "check-out-and-return"
+      ],
+      "site_links": [
+        "ratings",
+        "lessons"
+      ],
+      "review_status": "2009 text; 2026 review pending",
+      "editorial_notes": "Rewrite questions with the updated procedures, particularly PFDs, time limits, local landmarks, volunteer requirements, and self-rescue.",
+      "learning": false
+    }
+  ],
+  "site_links": {
+    "lessons": [
+      "Windsurfing lessons",
+      "/lessons-menu/windsurfing/lessons-windsurfing"
+    ],
+    "signups": [
+      "Lesson registration (login required)",
+      "/lessons-menu/windsurfing/lesson-signups?view=lessonsignups&lessontypeid=2"
+    ],
+    "ratings": [
+      "Windsurfing ratings and tests",
+      "/ratings-menu/rating-for-windsurf"
+    ],
+    "areas": [
+      "Sailing areas and boundaries",
+      "/ratings-menu/sailing-areas"
+    ],
+    "hours": [
+      "Club opening and closing times",
+      "/resources/csc-openclose-times?view=month"
+    ],
+    "calendar": [
+      "Club calendar",
+      "/resources/calendar"
+    ],
+    "videos": [
+      "Instructional windsurfing videos",
+      "/lessons-menu/windsurfing/videos"
+    ],
+    "guide": [
+      "The existing 10-Step Guide",
+      "/lessons-menu/windsurfing/the-10-step-guide-to-windsurfing"
+    ],
+    "fleet": [
+      "Windsurfing fleet",
+      "/about-us/fleet-menu/fleet-windsurfing"
+    ],
+    "damage": [
+      "Contact the windsurfing team (login required)",
+      "/resources/contact-windsurf-vices"
+    ],
+    "incident": [
+      "Incident report",
+      "/resources/incident-report-form"
+    ],
+    "volunteer": [
+      "Volunteering opportunities",
+      "/memberships-menu/volunteering-opportunities"
+    ],
+    "join": [
+      "Membership",
+      "/memberships-menu/memberships-reg"
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+/* Layout only. Fonts, colors, buttons and panels come from the live CSC theme. */
+.csc-handbook-page .t3-wrapper { overflow: visible; }
+.hb-preview .hb-utility { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 24px 0; }
+.hb-preview .t3-banner-header { max-width: 100%; }
+.hb-preview #csc_logo { width: auto; max-width: 100%; object-fit: contain; }
+.hb-preview .hb-global-nav { display: flex; align-items: center; justify-content: space-between; padding-right: 16px; }
+.hb-preview .hb-site-menu { flex: 1; min-width: 0; }
+.hb-preview .hb-site-menu > summary { display: none; }
+.hb-preview .hb-site-menu .navbar-nav { display: flex; flex-wrap: wrap; margin: 0; float: none; }
+.hb-preview .hb-site-menu .navbar-nav > li { float: none; }
+.hb-preview .hb-site-menu .navbar-nav > li > a { padding: 16px 14px; font-size: 12px; text-transform: uppercase; }
+.hb-preview .hb-donate { flex-shrink: 0; }
+.hb-preview .hb-actions { float: none; margin: 0; }
+.hb-preview .hb-actions > li { float: none; border: 0; }
+.hb-preview .hb-actions > li > a.hb-donate { border: 0; border-radius: 20px; padding: 7px 12px; font-size: 12px; line-height: 1.5; }
+.hb-preview .hb-breadcrumb { padding: 16px 40px 0; }
+.hb-preview .hb-breadcrumb .breadcrumb { margin: 0; padding: 0; background: none; font-size: 13px; }
+.hb-preview #t3-mainbody { padding: 0; }
+.hb-preview .hb-footer { padding: 24px 40px; }
+.hb-preview .hb-footer p { margin: 0 0 8px; font-size: 13px; }
+.hb-app { display: flex; align-items: flex-start; position: relative; }
+.hb-app > .hb-content { flex: 1; min-width: 0; padding: 30px 36px 56px; order: 1; }
+.hb-app .hb-intro h1 { margin: 0 0 12px; }
+.hb-app .hb-intro .lead { margin-bottom: 24px; }
+.hb-app .hb-eyebrow { font-size: 13px; letter-spacing: .06em; text-transform: uppercase; margin: 0 0 12px; opacity: .75; }
+.hb-app .hb-chapters { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 0 0 22px; }
+.hb-app .hb-chapter-tab { display: block; min-width: 0; margin: 0; padding: 12px; text-decoration: none; color: inherit; box-shadow: none; }
+.hb-app .hb-chapter-tab[aria-current="page"] { border-bottom: 3px solid currentColor; }
+.hb-app .hb-chapter-tab small { display: block; font-size: 11px; letter-spacing: .05em; margin-bottom: 4px; }
+.hb-app .hb-chapter-tab strong { font-size: 14px; font-weight: 500; }
+.hb-app .hb-draft { font-size: 13px; line-height: 1.55; padding: 12px 16px; margin-bottom: 22px; }
+.hb-app .hb-section-tools { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+.hb-app .hb-section-tools p { margin: 0; font-size: 13px; opacity: .75; }
+.hb-app .hb-controls { display: flex; gap: 6px; flex-shrink: 0; }
+.hb-app .hb-controls .btn { min-height: 40px; }
+.hb-app .hb-section { margin: 0 0 12px; box-shadow: none; scroll-margin-top: calc(var(--hb-section-top, 0px) + 24px); }
+.hb-app .hb-section > summary { cursor: pointer; list-style: none; padding: 18px; border: 0; overflow-anchor: none; }
+.hb-app .hb-section[open] > summary { position: sticky; top: var(--hb-section-top, 0px); z-index: 20; }
+.hb-app summary::-webkit-details-marker { display: none; }
+.hb-app summary:focus-visible, .hb-app a:focus-visible, .hb-app button:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.hb-app .hb-section > summary .panel-title { display: flex; align-items: center; gap: 14px; margin: 0; line-height: 1.4; font-size: 18px; }
+.hb-app .hb-step { font-size: 13px; opacity: .6; min-width: 20px; }
+/* CSC's small-screen theme assigns !important sizes to every H2 span. */
+.hb-app .hb-section h2 .hb-step { font-size: 13px !important; }
+.hb-app .hb-section h2 .hb-section-label { font-size: inherit !important; }
+.hb-app .hb-section h2 .hb-toggle { font-size: 24px !important; }
+.hb-app .hb-section-label { flex: 1; min-width: 0; }
+.hb-app .hb-section-label strong { display: block; font-weight: 500; font-size: 18px; }
+.hb-app .hb-section-label small { display: block; margin-top: 5px; font-size: 13px; line-height: 1.5; font-weight: 400; opacity: .75; }
+.hb-app .hb-toggle { font-size: 24px; line-height: 1; transition: transform .15s; }
+.hb-app .hb-section[open] .hb-toggle { transform: rotate(45deg); }
+.hb-app .hb-section[open] > summary { border-bottom: 1px solid; border-color: inherit; }
+.hb-app .hb-section-body { padding: 24px; }
+.hb-app .hb-section-body p { line-height: 1.65; }
+.hb-app .hb-section-body h3 { margin-top: 28px; }
+.hb-app .hb-section-body > :first-child { margin-top: 0; }
+.hb-app .hb-section-body figure { margin: 24px 0; }
+.hb-app .hb-section-body img { height: auto; max-width: 100%; }
+.hb-app .hb-diagram-link { display: block; }
+.hb-app .hb-diagram-link img { display: block; width: 100%; height: auto; }
+.hb-app .hb-flowchart-visual { position: relative; }
+.hb-app [hidden] { display: none !important; }
+.hb-app .hb-flowchart-controls { position: absolute; inset: 0; pointer-events: none; }
+.hb-app .hb-rule-hotspot { position: absolute; left: 3.5%; width: 93%; min-height: 44px; padding: 0; border: 2px solid transparent; border-radius: 8px; background: transparent; color: inherit; pointer-events: auto; cursor: help; }
+.hb-app .hb-rule-overtaking { top: 19.5%; height: 15.5%; }
+.hb-app .hb-rule-opposite-tacks { top: 45%; height: 14%; }
+.hb-app .hb-rule-same-tack { top: 69%; height: 13%; }
+.hb-app .hb-rule-hotspot:hover, .hb-app .hb-rule-hotspot:focus-visible { border-color: currentColor; background: rgb(255 255 255 / .12); }
+.hb-app .hb-rule-examples { padding: 12px; }
+.hb-app .hb-rule-popover { position: fixed; z-index: 100; width: min(520px, calc(100vw - 24px)); max-height: calc(100vh - 24px); max-height: calc(100dvh - 24px); overflow: auto; overscroll-behavior: contain; margin: 0; background: Canvas; color: CanvasText; box-shadow: 0 8px 32px rgb(0 0 0 / .22); }
+.hb-app .hb-rule-popover [data-rule-visual] { margin: 0; }
+.hb-app .hb-rule-popover h3 { margin: 0 0 10px; font-size: 18px; }
+.hb-app .hb-rule-example-controls { display: flex; justify-content: flex-end; margin-bottom: 8px; }
+.hb-app .hb-rule-example-controls .btn { min-height: 44px; }
+.hb-app .hb-rule-popover figcaption { font-size: 13px; opacity: 1; }
+.hb-app .hb-rule-hint { font-weight: 500; }
+.hb-app .hb-section-body figcaption { margin-top: 8px; font-size: 12px; line-height: 1.5; opacity: .7; }
+.hb-app .hb-checkout-photos, .hb-app .hb-checkout-steps { display: grid; gap: 24px; margin: 20px 0; }
+.hb-app .hb-checkout-photos, .hb-app .hb-checkout-two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.hb-app .hb-checkout-three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.hb-app .hb-checkout-steps { padding-left: 22px; column-gap: 32px; }
+.hb-app .hb-checkout-steps > li { min-width: 0; padding-left: 2px; line-height: 1.65; }
+.hb-app .hb-checkout-steps > li::marker { font-weight: bold; }
+.hb-app .hb-checkout-photos figure, .hb-app .hb-checkout-steps figure { margin: 12px 0 0; }
+.hb-app .hb-checkout-photo-link { display: flex; justify-content: center; align-items: flex-start; min-height: 44px; }
+.hb-app .hb-checkout-photo-link img { display: block; width: 100%; max-width: 100%; height: auto; max-height: 360px; object-fit: contain; object-position: center top; }
+.hb-app .hb-checkout-ids .hb-checkout-photo-link img { max-height: 300px; }
+.hb-app .hb-checkout-photo-hint { font-size: 13px; }
+.hb-app .hb-checkout-monitor { max-width: 480px; margin-right: auto !important; margin-left: auto !important; }
+.hb-app .hb-checkout-monitor .hb-checkout-photo-link img { max-height: 520px; }
+@media (min-width: 701px) {
+  .hb-app .hb-checkout-steps { counter-reset: checkout-step; }
+  .hb-app .hb-checkout-steps > li { display: grid; grid-template-rows: subgrid; grid-row: span 2; row-gap: 0; position: relative; counter-increment: checkout-step; }
+  .hb-app .hb-checkout-steps > li::before { content: counter(checkout-step) "."; position: absolute; right: calc(100% + 4px); top: 0; font-weight: bold; }
+}
+@media (max-width: 700px) {
+  .hb-app .hb-checkout-photos, .hb-app .hb-checkout-steps { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .hb-app .hb-checkout-photo-link img { max-height: 480px; }
+  .hb-app .hb-checkout-ids .hb-checkout-photo-link img { max-height: 340px; }
+}
+.hb-app .hb-image-viewer { width: min(1100px, calc(100vw - 24px)); height: min(1000px, calc(100vh - 24px)); height: min(1000px, calc(100dvh - 24px)); max-width: none; max-height: none; margin: auto; padding: 16px; border: 1px solid; border-color: inherit; background: Canvas; color: CanvasText; overflow: hidden; }
+.hb-app .hb-image-viewer[open] { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; gap: 12px; }
+.hb-app .hb-image-viewer::backdrop { background: rgb(0 0 0 / .7); }
+.hb-app .hb-image-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.hb-app .hb-image-toolbar .btn { min-height: 44px; white-space: normal; }
+.hb-app .hb-image-stage { overflow: auto; overscroll-behavior: contain; min-height: 0; }
+.hb-app .hb-image-stage img { display: block; width: 100%; height: 100%; max-width: none; max-height: none; object-fit: contain; }
+.hb-app .hb-image-viewer.hb-image-enlarged .hb-image-stage img { width: auto; height: auto; }
+.hb-app .hb-image-caption { margin: 0; max-height: 5em; overflow: auto; font-size: 13px; line-height: 1.5; }
+.hb-app .hb-section-body dd { margin-bottom: 16px; }
+.hb-app .hb-related { margin-top: 24px; padding-top: 16px; border-top: 1px solid; border-color: inherit; font-size: 13px; line-height: 1.8; }
+.hb-app .hb-next-chapter { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin: 28px 0; flex-wrap: wrap; }
+.hb-app .hb-credit { font-size: 12px; line-height: 1.6; }
+.hb-app .hb-sidebar { order: 2; flex: 0 0 274px; position: sticky; top: 20px; align-self: flex-start; padding: 34px 24px 24px 8px; }
+.hb-app .hb-contents > summary { display: none; }
+.hb-app .hb-contents-body { max-height: calc(100vh - 70px); max-height: calc(100dvh - 70px); overflow-y: auto; overscroll-behavior: contain; padding: 0 10px 8px; scrollbar-gutter: stable; }
+.hb-app .hb-contents .module-title { margin: 0 0 18px; }
+.hb-app .hb-contents h3 { font-size: 15px; margin: 24px 0 10px; }
+.hb-app .hb-chapter-links > li > a { padding: 10px 12px; font-size: 14px; }
+.hb-app .hb-section-links { list-style: none; padding: 0; margin: 0; }
+.hb-app .hb-section-links a { display: block; padding: 6px 0; font-size: 14px; line-height: 1.45; }
+.hb-app .hb-contents nav:last-child ul { padding-left: 18px; font-size: 14px; line-height: 1.7; }
+@media (max-width: 991px) {
+  .hb-app { display: block; }
+  .hb-app > .hb-content { padding: 26px 24px 40px; }
+  .hb-app .hb-sidebar { position: sticky; top: 0; z-index: 40; width: 100%; padding: 0; background: inherit; }
+  .hb-app .hb-contents { background: Canvas; color: inherit; border-bottom: 1px solid; border-color: inherit; }
+  .hb-app .hb-contents > summary { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 16px; min-height: 54px; padding: 12px 24px; cursor: pointer; list-style: none; font-size: 14px; }
+  .hb-app .hb-contents > summary::after { content: '⌄'; font-size: 20px; line-height: 1; }
+  .hb-app .hb-contents[open] > summary::after { content: '⌃'; }
+  .hb-app .hb-current-chapter { flex: 1; text-align: right; font-size: 12px; opacity: .7; }
+  .hb-app .hb-contents-body { padding: 18px 24px 24px; max-height: 65vh; max-height: 65dvh; border-top: 1px solid; border-color: inherit; }
+  .hb-app .hb-section { scroll-margin-top: calc(var(--hb-section-top, 54px) + 20px); }
+}
+@media (max-width: 600px) {
+  .hb-preview .hb-utility { padding: 10px 16px 0; gap: 6px; }
+  .hb-preview .hb-utility .btn { padding: 7px 10px; font-size: 10px !important; }
+  .hb-preview .hb-global-nav { align-items: flex-start; padding-right: 14px; }
+  .hb-preview .hb-site-menu > summary { display: block; float: none; cursor: pointer; margin: 0; font-size: 13px; }
+  .hb-preview .hb-site-menu .navbar-nav { flex-direction: column; }
+  .hb-preview .hb-site-menu .navbar-nav > li { border-right: 0; }
+  .hb-preview .hb-site-menu .navbar-nav > li > a { padding: 12px 16px; border: 0; }
+  .hb-preview .hb-actions { margin-top: 10px; }
+  .hb-preview .hb-breadcrumb { padding: 14px 18px 16px; }
+  .hb-preview .hb-footer { padding: 24px 18px; }
+  .hb-app > .hb-content { padding: 24px 18px 32px; }
+  .hb-app .hb-intro h1 { font-size: 30px; }
+  .hb-app .hb-intro .lead { font-size: 16px; }
+  .hb-app .hb-chapters { gap: 6px; }
+  .hb-app .hb-chapter-tab { padding: 10px 8px; }
+  .hb-app .hb-chapter-tab strong { font-size: 12px; line-height: 1.4; display: block; }
+  .hb-app .hb-section-tools { display: block; }
+  .hb-app .hb-controls { margin-top: 10px; }
+  .hb-app .hb-controls .btn { min-height: 44px; }
+  .hb-app .hb-section > summary { padding: 16px 12px; min-height: 64px; }
+  .hb-app .hb-section > summary .panel-title { gap: 10px; }
+  .hb-app .hb-section-label strong { font-size: 16px; }
+  .hb-app .hb-section-label small { font-size: 12px; }
+  .hb-app .hb-section-body { padding: 18px 16px; }
+  .hb-app .hb-contents > summary { padding: 12px 18px; }
+  .hb-app .hb-section-links a { padding: 11px 0; }
+}
+/* Keep the number and caption once a section reaches the reading position. */
+.hb-app .hb-section.hb-header-stuck > summary { min-height: 44px; padding: 10px 16px; }
+.hb-app .hb-section.hb-header-stuck > summary .panel-title { font-size: 16px; line-height: 1.5; }
+.hb-app .hb-section.hb-header-stuck .hb-step { flex-shrink: 0; }
+.hb-app .hb-section.hb-header-stuck .hb-section-label { display: block; }
+.hb-app .hb-section.hb-header-stuck .hb-section-label strong { font-size: 16px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hb-app .hb-section.hb-header-stuck .hb-toggle,
+.hb-app .hb-section.hb-header-stuck .hb-section-label small { display: none; }
+/* Keep the body itself in place so browser scroll anchoring cannot jump it. */
+.hb-app .hb-section.hb-header-stuck > summary { margin-bottom: var(--hb-header-gap, 0px); }
+@media (prefers-reduced-motion: reduce) { .hb-app .hb-toggle { transition: none; } }
+@media print {
+  .hb-app .hb-image-viewer[open] { display: none; }
+  .hb-preview .hb-utility, .hb-preview .t3-banner-header, .hb-preview .t3-mainnav, .hb-preview .hb-breadcrumb,
+  .hb-app .hb-sidebar, .hb-app .hb-chapters, .hb-app .hb-controls, .hb-app .hb-next-chapter { display: none; }
+  .hb-app { display: block; }
+  .hb-app > .hb-content { padding: 0; }
+  .hb-app .hb-section[open] > summary { position: static; }
+  .hb-app .hb-section.hb-header-stuck > summary { margin-bottom: 0; }
+  .hb-app .hb-flowchart-controls, .hb-app .hb-rule-example-controls, .hb-app .hb-rule-hint { display: none !important; }
+  .hb-app .hb-rule-popover { display: block !important; position: static; width: auto; max-height: none; overflow: visible; box-shadow: none; }
+  .hb-app .hb-rule-popover [data-rule-visual] { display: block !important; margin: 24px 0; }
+}

@@ -1,0 +1,32 @@
+Use case: scientific-educational / style-transfer.
+Create one polished full-color replacement illustration for the supplied black-and-white windsurfing dock diagram. This is a first design candidate for the Cal Sailing Club online windsurfing handbook. Landscape format approximately 3:2, high resolution, generous margins.
+
+INPUT ROLES:
+Image 1 is the diagram to redraw: preserve its spatial relationships and instructional meaning.
+Image 2 is a reference photograph of the real floating dock from the side: use its gray deck, capped vertical mooring pilings, and windsurf boards staged near the far end, with tails/fins outside the dock.
+Image 3 is a reverse-angle reference photo: use the aluminum gangway and the appearance of the small white-and-lime-green dinghies. It is a reverse view, so do NOT mirror the instructional layout from Image 1.
+
+COMPOSITION AND INVARIANTS:
+Use an almost overhead view, with just enough shallow perspective to make the board fins hanging outside the edge visible. Keep it a clear diagram, not a realistic photograph. A shore strip runs across the TOP. A narrow metal gangway/ramp connects from that shore down to the middle of a single long rectangular gray floating dock extending vertically down into pale teal water. There must be no extra side docks. The dock must be long enough that boards can rest flat across its width without blocking the ramp.
+Wind blows LEFT TO RIGHT: show three clear parallel navy arrows on the LEFT, each pointing RIGHT.
+The LEFT edge of the dock is the WINDWARD side, where two unrigged windsurf boards can rest flat on the deck while the sailor gets a sail. The boards lie approximately perpendicular to the left edge: rounded noses point toward the center of the dock (RIGHT), tails extend slightly beyond its LEFT edge, and their small underside fins are clearly beyond the dock edge over water, not touching the deck. Use blue and orange boards, no sails attached to these staged boards. Keep them toward the outer/lower part of the dock, away from the gangway.
+The RIGHT edge of the dock is the LEEWARD launch/return side. Show two small sailing dinghies moored off the upper RIGHT edge, with their bows toward the dock/left and hulls extending into the water to the right. A subtle white/lime sail on one boat may identify it as a dinghy; do not obscure the launch label. Keep a large open launch space alongside the lower-right edge. Use an orange accent along that right edge and a short arrow pointing to that launch space. Do not depict any sail lying unattended on the deck.
+The simplified dock geometry from the original diagram takes priority over the photographic perspectives.
+
+STYLE:
+Modern, refined educational illustration with crisp navy outlines, subtle cut-paper depth and soft shadows, pale blue/teal water with restrained ripple marks, muted sage shoreline, gray dock, white aluminum ramp, lime/white dinghy, restrained warm orange highlights. Match the calm maritime character of the existing Cal Sailing Club site. White/off-white outer background with a softly bounded illustrated water area. No photorealism, no heavy gradients, no cartoon faces, no people, no excess scenery, no logos, no watermark. One coherent illustration, not panels or a web page mockup.
+
+TEXT, spelled exactly and kept large and easy to read:
+Title: "Windsurfing at the dock"
+At shore: "Land"
+Leader to gangway: "Ramp"
+Left of wind arrows: "Wind"
+Along left side: "Windward"
+Along right side: "Leeward"
+Left callout, leader ending on the staged boards: "Rest boards here while you get your sail."
+Smaller line in same callout: "Keep fins beyond the dock edge."
+Right callout, leader ending at the open right edge: "Launch and return on this side."
+Label near a dinghy: "Sailboat"
+Bottom safety strip with a simple caution icon: "Never leave a sail unattended on the dock."
+
+Keep leader lines unambiguous, keep text off objects, and make the left/right orientation unmistakable. Give the diagram clear visual hierarchy suitable for a handbook illustration viewed on a phone.

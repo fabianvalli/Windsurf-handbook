@@ -1,0 +1,67 @@
+[
+  {
+    "key": "lessons",
+    "status": 200,
+    "url": "https://www.cal-sailing.org/lessons-menu/windsurfing/lessons-windsurfing"
+  },
+  {
+    "key": "signups",
+    "status": 200,
+    "url": "https://www.cal-sailing.org/login"
+  },
+  {
+    "key": "ratings",
+    "status": 200,
+    "url": "https://www.cal-sailing.org/ratings-menu/rating-for-windsurf"
+  },
+  {
+    "key": "areas",
+    "status": 200,
+    "url": "https://www.cal-sailing.org/ratings-menu/sailing-areas"
+  },
+  {
+    "key": "hours",
+    "status": 200,
+    "url": "https://www.cal-sailing.org/resources/csc-openclose-times?view=month"
+  },
+  {
+    "key": "calendar",
+    "status": 200,
+    "url": "https://www.cal-sailing.org/resources/calendar"
+  },
+  {
+    "key": "videos",
+    "status": 200,
+    "url": "https://www.cal-sailing.org/lessons-menu/windsurfing/videos"
+  },
+  {
+    "key": "guide",
+    "status": 200,
+    "url": "https://www.cal-sailing.org/lessons-menu/windsurfing/the-10-step-guide-to-windsurfing"
+  },
+  {
+    "key": "fleet",
+    "status": 200,
+    "url": "https://www.cal-sailing.org/about-us/fleet-menu/fleet-windsurfing"
+  },
+  {
+    "key": "damage",
+    "status": 200,
+    "url": "https://www.cal-sailing.org/login"
+  },
+  {
+    "key": "incident",
+    "status": 200,
+    "url": "https://www.cal-sailing.org/resources/incident-report-form"
+  },
+  {
+    "key": "volunteer",
+    "status": 200,
+    "url": "https://www.cal-sailing.org/memberships-menu/volunteering-opportunities"
+  },
+  {
+    "key": "join",
+    "status": 200,
+    "url": "https://www.cal-sailing.org/memberships-menu/memberships-registration?fbclid=IwAR0PntaWf17ACEmlvgw-xD5wRPvIxfV8lxPTU5iD4Ts67pVTzewW-rMHftA?fbclid=IwAR1Ws4JbYICacfHxqE3OLCtdzcE__nW0ZsAGBWnbtaV1OVwK_sh3eOzniFU?fbclid=IwAR1DXdHNcvCLf11T35Zx2QKZvaPr0ZHZbOfWpfqVpiUS56n4VY0SvNjFBL0?mdrv=www.cal-sailing.org?mdrv=www.cal-sailing.org?fbclid=IwAR28927_eiAPgHTTa1HVGli8e6X4Hi4S8JLTDQcfozJchjqfApbJRpv3IvM?fbclid=IwAR2nFdQFAQaEE_juwMZwaEpu9harABznqAVoRLmRTfMcEGF8bJ3SOG8c_Lc"
+  }
+]

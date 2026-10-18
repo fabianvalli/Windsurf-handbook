@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "index",
+    "title": "Before you sail",
+    "description": "Get ready for your session, learn how the club works, and know how to get back.",
+    "topics": [
+      "getting-started",
+      "ratings-and-areas",
+      "safety-and-help",
+      "check-out-and-return",
+      "launching-and-landing",
+      "self-rescue",
+      "novice-checklist"
+    ]
+  },
+  {
+    "slug": "sailing-skills",
+    "title": "Sailing skills",
+    "description": "Work through the fundamentals, from reading the wind to making your first turns.",
+    "topics": [
+      "wind-and-direction",
+      "right-of-way",
+      "carrying-the-rig",
+      "uphauling",
+      "starting",
+      "stance",
+      "steering",
+      "tacking",
+      "jibing",
+      "sailing-downwind",
+      "high-wind",
+      "freestyle"
+    ]
+  },
+  {
+    "slug": "equipment-reference",
+    "title": "Equipment & reference",
+    "description": "Know your board and rig, check your equipment, and look up the terms used in lessons.",
+    "topics": [
+      "parts-of-the-rig",
+      "rigging",
+      "equipment-care",
+      "knots",
+      "glossary"
+    ]
+  }
+]

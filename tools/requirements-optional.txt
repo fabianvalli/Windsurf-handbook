@@ -1,0 +1,5 @@
+# Only for optional photo processing and the archived one-time PDF migration.
+# Normal builds and previews need none of these packages.
+Pillow
+pypdf
+pdfplumber

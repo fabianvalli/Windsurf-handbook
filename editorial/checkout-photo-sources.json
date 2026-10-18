@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-17",
+  "source": "User-supplied procedure photographs",
+  "preparation": "EXIF orientation applied; proportionally reduced to at most 1600px; WebP quality 88; no crop or content edits; originals retained",
+  "photos": [
+    {
+      "source": "sail.png",
+      "asset": "checkout-sail-id.webp",
+      "width": 895,
+      "height": 1600,
+      "source_bytes": 8213401,
+      "web_bytes": 340708
+    },
+    {
+      "source": "board.jpg",
+      "asset": "checkout-board-id.webp",
+      "width": 900,
+      "height": 1600,
+      "source_bytes": 1756014,
+      "web_bytes": 132168
+    },
+    {
+      "source": "tablet1.jpg",
+      "asset": "checkout-tablet-start.webp",
+      "width": 930,
+      "height": 1600,
+      "source_bytes": 3221426,
+      "web_bytes": 119246
+    },
+    {
+      "source": "tablet2.jpg",
+      "asset": "checkout-tablet-form.webp",
+      "width": 891,
+      "height": 1600,
+      "source_bytes": 3673876,
+      "web_bytes": 115322
+    },
+    {
+      "source": "tablet3.jpg",
+      "asset": "checkout-tablet-submit.webp",
+      "width": 938,
+      "height": 1600,
+      "source_bytes": 4959276,
+      "web_bytes": 73792
+    },
+    {
+      "source": "signout menu 1.jpg",
+      "asset": "checkout-phone-menu.webp",
+      "width": 362,
+      "height": 680,
+      "source_bytes": 170667,
+      "web_bytes": 25864
+    },
+    {
+      "source": "signout page.jpg",
+      "asset": "checkout-phone-login.webp",
+      "width": 457,
+      "height": 434,
+      "source_bytes": 66840,
+      "web_bytes": 9810
+    },
+    {
+      "source": "tablet4.jpg",
+      "asset": "checkout-return-form.webp",
+      "width": 959,
+      "height": 1600,
+      "source_bytes": 2861211,
+      "web_bytes": 92272
+    },
+    {
+      "source": "tablet5.jpg",
+      "asset": "checkout-return-damage.webp",
+      "width": 916,
+      "height": 1600,
+      "source_bytes": 3881243,
+      "web_bytes": 75098
+    },
+    {
+      "source": "Signouts.jpg",
+      "asset": "checkout-active-signouts.webp",
+      "width": 1364,
+      "height": 1600,
+      "source_bytes": 2780897,
+      "web_bytes": 174288
+    }
+  ],
+  "originals": "Original photos are external and optional; the web assets are included in the repository."
+}

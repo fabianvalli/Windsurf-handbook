@@ -1,0 +1,20 @@
+Use case: scientific-educational / style-transfer.
+Asset type: full-color handbook right-of-way decision diagram, candidate 1, portrait approximately 4:5, high-resolution.
+Primary request: Redraw the old "Right-of-Way Flow Chart" from source image 2 in the same illustrated color style as the dock in image 1.
+INPUT ROLES: Image 1 is the style reference, painterly teal maritime water with feathered white edges, navy serif lettering, cream rounded callout boxes edged in orange, subtle shadows and crisp navy arrows. Image 2 is the source PDF page; use ONLY the middle decision flowchart as the layout/content reference. Do not copy the old surrounding text about towing.
+COMPOSITION: An elegant portrait infographic, white outer margins, a very faint teal water wash inside, enough contrast for easy reading. Large dark navy serif title exactly "Right-of-way rules". Subtitle exactly "Between two sailing vessels".
+Three sequential numbered cream decision cards stacked DOWN THE LEFT/CENTER. Outcomes in equally legible orange-bordered cream cards to the RIGHT. Clear navy connecting lines, no overlaps, no ambiguity, no tiny text. Use YES branches to the right, NO branches down. Keep typography large, short lines, generous padding. Decision order is essential: overtaking is checked FIRST.
+Exact flow:
+Decision 1: "Is one vessel overtaking the other?"
+Right arrow labeled "Yes" to outcome: "The overtaking vessel keeps clear."
+Down arrow labeled "No" to decision 2.
+Decision 2: "Are they on opposite tacks?"
+Right arrow labeled "Yes" to outcome: "Port tack keeps clear of starboard tack."
+Down arrow labeled "No" to decision 3.
+Decision 3: "They are on the same tack."
+Right arrow (without Yes/No label) to outcome: "Windward keeps clear of leeward."
+Keep outcome cards visually connected ONLY to the correct question. The third card is a statement, not a question.
+Two clear footer strips across the full width:
+"Give way: act early and keep well clear."
+"Stand on: keep course and speed; act if needed to avoid collision."
+No towing rule. No claim this is a complete rule set for all vessel types. No green/red traffic lights. No decorative vessels or people that clutter the flowchart. Match dock artwork's warm cream, navy, orange, turquoise and soft paper texture. This is an instructional diagram, not a webpage, poster advertisement or photorealistic scene. Spell all words exactly.

@@ -1,0 +1,20 @@
+[
+  {
+    "file": "index.html",
+    "article_title": "Before you sail",
+    "proposed_route": "/lessons-menu/windsurfing/handbook",
+    "published": false
+  },
+  {
+    "file": "sailing-skills.html",
+    "article_title": "Sailing skills",
+    "proposed_route": "/lessons-menu/windsurfing/handbook/sailing-skills",
+    "published": false
+  },
+  {
+    "file": "equipment-reference.html",
+    "article_title": "Equipment & reference",
+    "proposed_route": "/lessons-menu/windsurfing/handbook/equipment-reference",
+    "published": false
+  }
+]

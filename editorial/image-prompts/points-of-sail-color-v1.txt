@@ -1,0 +1,18 @@
+Use case: scientific-educational / style-transfer.
+Asset type: full-color windsurfing handbook diagram, candidate 1, square, high-resolution.
+Primary request: Redraw "Points of sail" from the bottom diagram in source image 2, matching the color illustration style of image 1.
+INPUT ROLES: Image 1 (dock) provides style: painterly turquoise/teal water, feathered white edges, navy outlines and dark navy serif lettering, quiet soft shadows, cream labels and orange highlights. Image 2 provides ONLY the old circular points-of-sail diagram, not the surrounding page, tacks diagram or flowchart.
+COMPOSITION AND EXACT GEOMETRY:
+Title "Points of sail" across the top. A large, clean circular teaching diagram on very pale teal water. Three parallel navy arrows at the top labeled "Wind" point vertically DOWN. The wind comes FROM the TOP of the page throughout.
+A small center dot represents the common reference position. Thin dashed radial guide lines. A softly orange-shaded NO-SAIL wedge extends UP from the center, bounded by rays at 45 degrees left and 45 degrees right of straight up (a 90-degree wedge overall). Label "No-sail zone" in its upper center; smaller "About 45° either side of the wind". No board inside this wedge.
+Show SEVEN recognizable slim WINDSURF boards with mast/boom/sail, seen from directly above and placed around the circle, never dinghies or yachts. Each board's pointed NOSE faces AWAY FROM THE CENTER along its radial heading. Direction arrows point the SAME way as each board's nose. Blue-and-white board decks with squared tails, navy outlines, lime-and-white sails positioned to leeward. No people. Bow vs tail and heading must be unambiguous.
+1 Upper-left board at northwest: bow points NORTHWEST / upper-left. Label "Close-hauled" and "≈45°".
+2 Upper-right board at northeast: bow points NORTHEAST / upper-right. Label "Close-hauled" and "≈45°".
+3 Far-left board at west: bow points LEFT, exactly horizontal. Label "Beam reach" and "90°".
+4 Far-right board at east: bow points RIGHT, exactly horizontal. Label "Beam reach" and "90°".
+5 Lower-left board at southwest: bow points LOWER LEFT. Label "Broad reach" and "≈135°".
+6 Lower-right board at southeast: bow points LOWER RIGHT. Label "Broad reach" and "≈135°".
+7 Bottom board at south: bow points straight DOWN. Label "Run" and "180°".
+Labels arranged with generous space beside their corresponding boards, no overlaps or crossed leader lines, no text on sails. At beam reach the sail opens to leeward (toward bottom of picture). At run the sail is eased out broadly to the side. Retain painterly water but keep it sufficiently light for navy text to be readable. Use a quiet white/cream outer background and orange accent only for no-sail wedge and small details.
+Footer: "Angles are measured from the direction the wind comes from."
+No compass letters or north arrow: these are wind-relative directions, not geographic directions. No claim of fixed performance for every board, no detailed angle bands, no extra boards, no logos or watermarks. Prioritize accurate geometry, clear readable labels and consistency with the dock illustration.

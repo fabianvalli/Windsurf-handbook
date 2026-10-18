@@ -1,0 +1,193 @@
+{
+  "date": "2026-10-17",
+  "reading_pages": 3,
+  "collapsible_sections": 24,
+  "legacy_topic_forwarders": 24,
+  "original_illustrations": 14,
+  "checks": [
+    "All source sections assigned to exactly one chapter",
+    "Local links and disclosure anchors",
+    "Image references and alternative text",
+    "One H1 per preview chapter",
+    "JavaScript syntax",
+    "Desktop banner and inherited theme",
+    "Sticky desktop sidebar after section jump",
+    "Expand all and Collapse all",
+    "390px and 320px framed phone rendering",
+    "Phone menu closes after shortcut selection and target opens",
+    "Phone shortcut bar remains at the top while reading"
+  ],
+  "integration_remaining": "Verify Joomla routing, editor preservation of details/summary, asset registration, and template wrappers in staging. Content review remains pending.",
+  "repo": {
+    "revision": "288c26b",
+    "modified": false,
+    "commits_made": 0,
+    "pushes_made": 0,
+    "url": "https://github.com/calsailing/website-redesign"
+  },
+  "dock_diagram": {
+    "asset": "dock-layout-color-v1.png",
+    "accepted": "2026-10-16",
+    "replaced_in": "Before you sail / Launching and landing",
+    "phone_widths_verified": [
+      320,
+      390
+    ],
+    "aspect_ratio": "3:2 preserved",
+    "full_size_link": "Browser verified 1536x1024 image opens when tapped",
+    "joomla_image_and_link_paths": "verified"
+  },
+  "sticky_section_headers": {
+    "date": "2026-10-16",
+    "scope": "All three subject pages via shared CSS and JavaScript",
+    "checks": [
+      "Expanded headers stick within their own sections",
+      "Pinned headers show the section number and one title line",
+      "Full heading and subtitle return at section start",
+      "Fine scrolling across section boundaries moves continuously in both directions without a bounce",
+      "Outgoing headers stay compact offscreen and slide out before the following header pins",
+      "Body position and section height remain unchanged when the header shrinks",
+      "Collapsing a pinned section restores static header state",
+      "320px and 390px phone headers sit below the shortcuts bar"
+    ],
+    "desktop_measurements": {
+      "full_header_height_px": 86.6875,
+      "compact_header_height_px": 45,
+      "section_height_before_px": 1696.390625,
+      "section_height_after_px": 1696.390625,
+      "body_offset_before_px": 87.6875,
+      "body_offset_after_px": 87.6875
+    },
+    "boundary_samples_section_bottom_px": [
+      53.046875,
+      28.046875,
+      2.046875,
+      -22.953125,
+      -47.953125,
+      -72.953125,
+      -97.953125
+    ],
+    "proof": "sticky-section-headers-numbered-phones.png",
+    "handoff_proof": "sticky-section-headers-phone-handoff.png",
+    "desktop_proof": "sticky-section-header-numbered-desktop.png"
+  },
+  "general_sailing_diagrams": {
+    "date": "2026-10-16",
+    "installed_in": "Sailing skills: Wind, direction, and points of sail; Sharing the water",
+    "assets": [
+      "port-starboard-tacks-color-v2.png",
+      "points-of-sail-color-v1.png",
+      "right-of-way-color-v1.png"
+    ],
+    "checks": [
+      "All three images loaded in desktop browser with correct natural dimensions",
+      "Tacks and points-of-sail diagrams fit 320px and 390px phone frames",
+      "Right-of-way flowchart fits 390px phone frame",
+      "Phone tap opens full-size 1122x1402 right-of-way image",
+      "Descriptive alternative text and full-size links included",
+      "Preview and Joomla image/link paths verified"
+    ],
+    "proof": [
+      "general-sailing-diagrams-desktop.png",
+      "general-sailing-tacks-phones.png",
+      "general-sailing-points-phones.png",
+      "general-sailing-diagrams-phones.png"
+    ]
+  },
+  "right_of_way_visual_help": {
+    "date": "2026-10-16",
+    "assets": [
+      "right-of-way-overtaking-v2.png",
+      "right-of-way-opposite-tacks-v2.png",
+      "right-of-way-same-tack-v3.png"
+    ],
+    "method": "Built-in image generator",
+    "artwork": "Two boards and rigs in each scene; all people removed at user request; sail/boom details refined",
+    "checks": [
+      "Three flowchart rows map to the corresponding scenes",
+      "Mouse entry opens the associated preview",
+      "Click pins an example; Escape, Close and outside click dismiss it",
+      "Keyboard focus opens examples, including when focus scrolls a row into view",
+      "Close restores focus without reopening the panel",
+      "320px and 390px layouts checked; 320px close/reopen regression passed",
+      "All three latest 1536x1024 images loaded in the browser",
+      "Panels fit the desktop viewport",
+      "Preview and Joomla full-size links and image paths verified",
+      "Static source retains ordinary figures as the no-JavaScript fallback"
+    ],
+    "proof": [
+      "right-of-way-hover-desktop.png",
+      "right-of-way-example-320.png",
+      "right-of-way-example-390.png"
+    ],
+    "prompts": "image-prompts/right-of-way-board-only-revisions.json"
+  },
+  "checkout_procedure": {
+    "date": "2026-10-17",
+    "section": "Before you sail / 04 Checking equipment out and back in",
+    "source": "User-provided procedure and ten supplied photos",
+    "photos": 10,
+    "web_photo_bytes": 1158568,
+    "checks": [
+      "Rewritten selection, tablet signout, phone access, return, damage reporting, and active monitor verification",
+      "Historical paper signout and one-hour restrictions removed from this section",
+      "All ten photo paths, alternative text, exact intrinsic dimensions, and full-size links verified",
+      "Desktop, 320px, and 390px layouts checked in browser",
+      "No horizontal overflow in either phone frame (305/305px and 375/375px client/scroll widths)",
+      "Photo space reserved before lazy loading to avoid content movement",
+      "Full-size return photo opens in desktop and 320px phone browser at 916x1600",
+      "All ten Joomla image and full-size paths rewritten correctly",
+      "Normal build passed all 24-section coverage, links, anchors, assets, and heading checks"
+    ],
+    "proof": [
+      "checkout-desktop.png",
+      "checkout-phones.png"
+    ],
+    "user_review": "Pending",
+    "publication": "Local only; no commits or pushes"
+  },
+  "image_viewer_and_alignment": {
+    "date": "2026-10-17",
+    "scope": "Shared image close-up viewer for linked handbook photos and diagrams; checkout photo row alignment",
+    "checks": [
+      "All two- and three-column checkout groups have identical image top positions within each group",
+      "Close-up opens as a native modal dialog without navigating away from the handbook",
+      "Close image, browser Back, and Escape return to the original reading position",
+      "Desktop stable reading position unchanged at 3151px through opening and dismissal",
+      "Phone close-up bounds fit 320px and 390px preview frames",
+      "Phone reading positions unchanged after close: 4283px at 320px and 7376px at 390px",
+      "Enlarge displays the 891px source image in a scrollable 247px phone stage",
+      "Native focus containment, explicit Close button, source-link focus restoration, and descriptive alt text",
+      "Underlying right-of-way Escape handling defers to an open image close-up",
+      "JavaScript syntax and normal build passed"
+    ],
+    "proof": [
+      "checkout-aligned-photos.png",
+      "image-closeup-desktop.png",
+      "image-closeup-phones.png"
+    ],
+    "commits_made": 0,
+    "pushes_made": 0
+  },
+  "portable_repository": {
+    "date": "2026-10-17",
+    "destination": "https://github.com/fabianvalli/Windsurf-handbook",
+    "base_revision": "6d35856c52ca8fbdc3370ce2319a97b34a6552dc",
+    "state": "User explicitly authorized the prepared project commit and push to main on 2026-10-17. These checks describe the snapshot before that import; inspect Git history and remote state for current synchronization status.",
+    "checks": [
+      "All 211 candidate files exported from the index to a separate temporary folder without original workstation files",
+      "Clean-copy build passed using Python standard library only (site packages disabled)",
+      "Rebuilt output matches the staged snapshot byte for byte with portable LF line endings",
+      "Portable local preview returned HTTP 200 for the handbook and image/webp for photo assets",
+      "Archived migration refuses to overwrite reviewed content without explicit --allow-overwrite",
+      "All Python helper sources compile; candidate file sizes fit ordinary Git storage",
+      "No credential-pattern findings in candidate text files",
+      "Public source PDF URL verified HTTP 200 with application/pdf",
+      "Existing remote README and initial history reviewed; existing commit retained as main branch base"
+    ],
+    "included": "Editable sources, all artwork versions, generated previews and Joomla bodies, review evidence, prompts, README, HANDOFF.md, AGENTS.md, and portable build/preview tools",
+    "not_included": "Original PDF, original checkout photos, separate CSC prototype clone, credentials, local source downloads, and temporary files",
+    "commits_before_import": 0,
+    "pushes_before_import": 0
+  }
+}

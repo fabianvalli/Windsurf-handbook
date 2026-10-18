@@ -1,0 +1,12 @@
+Use case: precise-object-edit / text-localization.
+Edit only the captions of this existing Port and Starboard Tacks illustration. Preserve the artwork exactly: all six boards, rigs, arrows, P/S labels, wind labels, title, headings, painterly water, layout, original landscape dimensions, colors and navy serif typography.
+Make these three precise text changes:
+1. In the orange-bordered cream callout below the LEFT / PORT TACK panel, replace the current single line with two centered lines:
+Main line, large and prominent: "Left hand forward"
+Second line, smaller: "Wind from your left."
+2. In the matching callout below the RIGHT / STARBOARD TACK panel, replace the current single line with two centered lines:
+Main line, large and prominent: "Right hand forward"
+Second line, smaller: "Wind from your right."
+3. Replace the small centered footer below both callouts with exactly:
+"Your forward hand is the hand closest to the mast."
+Make the hand-forward mnemonic the primary label in each bottom callout and the wind direction a secondary explanation. Keep all caption text comfortably inside the existing cream callout boxes, with generous padding. Both main labels must use identical font sizes; both smaller labels must match each other. Preserve the callout positions and orange outlines. Do not add drawings of hands or people, do not alter the boards or sails, do not redesign or regenerate other parts. All other existing words and elements remain unchanged.

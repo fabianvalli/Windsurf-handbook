@@ -1,0 +1,18 @@
+# Local tools, credentials, and downloaded source material.
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.codex/
+source/
+tmp/
+*.log
+
+# Generated previews are intentionally tracked for easy review on another PC.
