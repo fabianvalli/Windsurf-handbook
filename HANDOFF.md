@@ -15,7 +15,14 @@ Modernize CSC's April 2009 windsurfing PDF into maintainable HTML for the existi
 - **Equipment & reference:** `dist/equipment-reference.html`, five topics.
 - Editable fragments: `articles/`. Metadata and review notes: `manifest.json`.
 - Joomla import bodies: three main files listed in `joomla/routes.json`. Other HTML files are legacy forwards, not extra articles.
+- IIS staging: `staging/` and `tools/build_review.py` produce a separate app for shared reviewer comments, attachments, and replies. See `staging/README.md` for setup and data retention.
 - The live Joomla theme supplies shared CSS and branding. The publicly cloned redesign prototype is incomplete and has a different visual design.
+
+## Lesson merge and shared review
+
+Fabian approved merging the material on the new pages by keeping the new artwork and CSC procedures and linking to the existing 10-Step Guide where it teaches the same skills. The live guide was compared and left untouched. The three chapters and section IDs remain in place. The existing guide was revised in 2009; it is not the source for current CSC policy.
+
+The IIS review package adds a comments panel, numbered page and topic markers, threaded replies, a display name remembered in the reviewer's browser, and image upload/paste. The package is deployed to Fabian's designated IIS staging application. The staging server keeps the shared data outside the app; keep reviewer data and site-specific configuration out of Git. The regular static preview and Joomla import do not include review controls.
 
 ## Latest completed work (October 17, 2026)
 
@@ -27,13 +34,13 @@ Modernize CSC's April 2009 windsurfing PDF into maintainable HTML for the existi
 
 ## Editorial sequence review (October 17, 2026)
 
-Fabian requested a full scan for repetition, missing topics, and premature jumps. He subsequently clarified that the handbook's existing work, including its diagrams, should be retained. Comparison with the main site's other pages and any decision about merging content are deferred.
+Fabian requested a full scan for repetition, missing topics, and premature jumps. He asked to retain the instructional text and diagrams until the comparison with the existing online guide, which was completed before the later merge described above.
 
 On October 17, 2026, Fabian explicitly approved committing the reviewed editorial and navigation changes and pushing this revision to `main`. This records authorization, not completion; check Git history and the remote for the resulting state. Future commits and pushes require new explicit consent. Publishing to the live CSC website remains outside this approval.
 
 01 stays focused on joining, lessons, and participation. 02 is now **Club rules and procedures**, the home for links to operating rules, conduct, ratings, areas, fleet, and hours. 03 retains safety preparation; 04 keeps the accepted signout/return procedure and ten photos; 05 retains dock/carrying instruction and the accepted dock illustration; 06 retains recovery instruction; 07 is a readiness recap. Historical safety and recovery guidance still require review.
 
-The Sailing skills chapter retains its instructional text, original reference images, and accepted color diagrams. Equipment anatomy, terminology, rigging, and knot reference also remain available locally for review. Existing CSC lesson and reference links are supplementary. Downwind comes before Jibe; high wind and freestyle are optional later practice. Retaining historical material does not establish it as approved current guidance.
+This pass moved Downwind before Jibe and marked high wind and freestyle as optional later practice. That reading order and the accepted color diagrams remain in the merged version.
 
 Fabian requested removal of the per-section Next footer links. Chapter tabs, sidebar shortcuts, and navigation between chapters remain. Optional Related links still exclude the following section and destinations already linked in the prose. The duplicate generic resource list was removed from the sidebar; resources sit with their relevant topics. See manifest notes and editorial/validation.json for details. The live 10-Step Guide is historical instruction, not a newly approved 2026 policy document.
 
@@ -48,7 +55,7 @@ Fabian requested removal of the per-section Next footer links. Chapter tabs, sid
 
 ## Remaining work
 
-Continue section by section as Fabian supplies new material. Retain the handbook's instructional content and diagrams while reviewing the new sequence and transitions. Compare other CSC pages later before deciding whether content should merge; current policy, rating, area, and hour resources continue to use maintained site links. The manifest records per-topic review notes. Priorities include safety/PFD guidance, rating boundaries, self-rescue locations, current rigging/equipment care, historical glossary definitions and angles, and remaining diagrams. The duplicate rule list and blanket towing-priority statement were removed during the sequence review; the accepted right-of-way flowchart and examples remain.
+Continue section by section as Fabian supplies new material. Keep local procedures and diagrams in the handbook and use maintained links for shared lessons and current club requirements. The manifest records per-topic review notes. Priorities include safety/PFD guidance, rating boundaries, self-rescue locations, and current rigging and equipment care. The duplicate rule list and blanket towing-priority statement were removed during the sequence review; the accepted right-of-way flowchart and examples remain.
 
 Do not remove draft notices or treat the entire handbook as approved. No next rewrite has been chosen yet. Club-site Joomla integration, routing, editor preservation of details/summary, and final staging checks remain outstanding.
 

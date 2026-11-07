@@ -243,5 +243,31 @@
     "proof": "section-footer-without-next.png",
     "commits_made": 0,
     "pushes_made": 0
+  },
+  "lesson_merge_and_iis_review": {
+    "date": "2026-11-07",
+    "scope": "New handbook pages and separate IIS review app; existing CSC articles untouched",
+    "existing_guide": "https://www.cal-sailing.org/resources/csc-files?view=article&id=350:how-to-windsurf&catid=22&showall=1",
+    "checks": [
+      "All 24 section IDs, new diagrams, and the equipment checkout procedure and photos retained; duplicate lesson text and glossary replaced with direct guide links",
+      "Static preview and Joomla import contain no comment UI or API dependencies",
+      "Published .NET 10 package served at an isolated IIS Express /windsurf-review/ sub-application; same-origin comment posting and image retrieval passed",
+      "API tests passed for validation, image-only posts, replies, parallel writes, chapter isolation, and persistence after restart",
+      "Browser posted a file attachment and a pasted PNG reply; the remembered reviewer name carried across chapters",
+      "Numbered marker and panel links navigated both ways on desktop; the modal drawer fit at 320px and 390px and returned to its marker",
+      "Deployment ZIP verified with no stored comments or reviewer uploads"
+    ],
+    "status": "Local package prepared and tested; see iis_staging_deployment for the subsequent deployment"
+  },
+  "iis_staging_deployment": {
+    "date": "2026-11-07",
+    "scope": "User-designated CSC application in IIS Default Web Site",
+    "package": "Self-contained Windows x64 .NET 10 app running out of process under the installed IIS ASP.NET Core Module",
+    "checks": [
+      "All three deployed chapters and review assets served byte-for-byte; checkout WebP served with its image MIME type",
+      "A section comment and an 80 KB PNG attachment saved and were retrieved through the deployed IIS application using isolated test storage",
+      "Permanent reviewer storage is separate from the app and IIS web roots; all three chapter APIs verified after switching and no deployment-check comment was visible"
+    ],
+    "status": "Live on the designated IIS staging application; no Git commit or push"
   }
 }

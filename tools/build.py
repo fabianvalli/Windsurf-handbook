@@ -16,7 +16,7 @@ PROPOSED_ROUTE = '/lessons-menu/windsurfing/handbook'
 IMAGE_ROUTE = '/images/windsurfing/handbook-2026'
 CHAPTERS = [
     dict(slug='index', title='Before you sail', description='Start with the club, check its rules, and prepare for your session from signout to return.', topics=['getting-started', 'ratings-and-areas', 'safety-and-help', 'check-out-and-return', 'launching-and-landing', 'self-rescue', 'novice-checklist']),
-    dict(slug='sailing-skills', title='Sailing skills', description='Use the wind and right-of-way illustrations, then practice the handbook’s lessons in order. Higher-wind practice comes later.', topics=['wind-and-direction', 'right-of-way', 'carrying-the-rig', 'uphauling', 'starting', 'stance', 'steering', 'tacking', 'sailing-downwind', 'jibing', 'high-wind', 'freestyle']),
+    dict(slug='sailing-skills', title='Sailing skills', description='Start with the wind and right-of-way illustrations, then follow the linked lessons in the existing 10-Step Guide.', topics=['wind-and-direction', 'right-of-way', 'carrying-the-rig', 'uphauling', 'starting', 'stance', 'steering', 'tacking', 'sailing-downwind', 'jibing', 'high-wind', 'freestyle']),
     dict(slug='equipment-reference', title='Equipment & reference', description='Know your board and rig, check your equipment, and look up the terms used in lessons.', topics=['parts-of-the-rig', 'rigging', 'equipment-care', 'knots', 'glossary']),
 ]
 topic_chapter = {s: c for c in CHAPTERS for s in c['topics']}

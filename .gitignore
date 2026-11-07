@@ -16,3 +16,8 @@ tmp/
 *.log
 
 # Generated previews are intentionally tracked for easy review on another PC.
+
+# IIS review builds and runtime data stay out of source control.
+/staging/bin/
+/staging/obj/
+App_Data/

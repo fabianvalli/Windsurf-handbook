@@ -1,0 +1,141 @@
+/* Staging-only review controls. Buttons and typography follow the CSC theme. */
+.hb-app.hbr-enabled .hb-section-tools .hb-controls { flex-shrink: 1; flex-wrap: wrap; }
+.hb-app .hbr-anchors, .hb-app .hbr-markers, .hb-app .hbr-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.hb-app .hbr-anchors { margin: 0 0 14px; scroll-margin-top: calc(var(--hb-section-top, 0px) + 16px); }
+.hb-app .hb-section-body > .hbr-anchors + :is(h3, figure, p, ul, ol, dl) { margin-top: 0; }
+.hb-app .hbr-anchors .btn, .hb-app .hbr-panel .btn {
+  min-height: 38px;
+  white-space: normal;
+}
+.hb-app .hbr-marker {
+  min-width: 44px;
+  font-weight: 700;
+  scroll-margin-top: calc(var(--hb-section-top, 0px) + 96px);
+}
+.hb-app .hbr-marker:focus { outline: 2px solid currentColor; outline-offset: 3px; }
+
+.hb-app .hbr-panel {
+  box-sizing: border-box;
+  color: CanvasText;
+  background: Canvas;
+  border: 1px solid color-mix(in srgb, CanvasText 23%, Canvas);
+  padding: 0;
+  max-width: none;
+  max-height: none;
+  overflow: hidden;
+}
+.hb-app .hbr-panel[open] { display: flex; flex-direction: column; }
+.hb-app .hbr-panel::backdrop { background: rgb(0 0 0 / .48); }
+.hb-app .hbr-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 12px 14px;
+  border-bottom: 1px solid color-mix(in srgb, CanvasText 20%, Canvas);
+}
+.hb-app .hbr-header h2 { margin: 0; color: inherit; font-size: 19px; line-height: 1.25; }
+.hb-app .hbr-panel-body { min-height: 0; overflow: auto; overscroll-behavior: contain; padding: 14px; }
+.hb-app .hbr-identity {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 8px;
+  margin: 12px 0 8px;
+  overflow-wrap: anywhere;
+  font-size: 13px;
+}
+.hb-app .hbr-name-editor, .hb-app .hbr-composer {
+  margin: 12px 0;
+  padding: 12px;
+  background: color-mix(in srgb, CanvasText 4%, Canvas);
+  border: 1px solid color-mix(in srgb, CanvasText 20%, Canvas);
+  border-radius: 4px;
+}
+.hb-app .hbr-composer h3, .hb-app .hbr-thread-title { margin: 0 0 8px; color: inherit; font-size: 16px; line-height: 1.35; }
+.hb-app .hbr-field { display: grid; gap: 4px; margin: 0 0 10px; }
+.hb-app .hbr-field label { margin: 0; }
+.hb-app .hbr-field .form-control { width: 100%; min-height: 40px; font-size: 16px; }
+.hb-app .hbr-field textarea { resize: vertical; height: auto; }
+.hb-app .hbr-file-input { width: 100%; font: inherit; font-size: 13px; }
+.hb-app .hbr-help, .hb-app .hbr-status { margin: 0; font-size: 13px; line-height: 1.5; overflow-wrap: anywhere; }
+.hb-app .hbr-status:not(:empty) { margin-top: 8px; }
+.hb-app .hbr-load-status { margin-bottom: 10px; }
+.hb-app .hbr-panel .btn[aria-disabled="true"] { opacity: .65; cursor: wait; }
+.hb-app .hbr-inputs { min-width: 0; margin: 0; padding: 0; border: 0; }
+
+.hb-app .hbr-previews, .hb-app .hbr-attachments, .hb-app .hbr-threads, .hb-app .hbr-replies {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.hb-app .hbr-previews { display: grid; gap: 8px; margin: 0 0 10px; }
+.hb-app .hbr-previews li {
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+.hb-app .hbr-previews img { display: block; width: 38px; height: 38px; object-fit: cover; border-radius: 3px; }
+.hb-app .hbr-threads { display: grid; gap: 10px; }
+.hb-app .hbr-thread {
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid color-mix(in srgb, CanvasText 20%, Canvas);
+  border-radius: 4px;
+  overflow-wrap: anywhere;
+}
+.hb-app .hbr-thread[data-selected] { box-shadow: inset 3px 0 0 currentColor; }
+.hb-app .hbr-byline { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; font-size: 13px; }
+.hb-app .hbr-byline time { opacity: .78; font-size: 12px; }
+.hb-app .hbr-message-text { white-space: pre-wrap; margin: 6px 0 0; line-height: 1.55; }
+.hb-app .hbr-attachments { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 0; }
+.hb-app .hbr-attachments a { display: block; }
+.hb-app .hbr-attachments img { display: block; width: 64px; height: 64px; object-fit: contain; border-radius: 3px; }
+.hb-app .hbr-replies {
+  display: grid;
+  gap: 12px;
+  margin: 12px 0 0;
+  padding-left: 10px;
+  border-left: 2px solid color-mix(in srgb, CanvasText 23%, Canvas);
+}
+.hb-app .hbr-thread .hbr-actions { margin-top: 10px; }
+
+@media (min-width: 992px) {
+  /* The staging rail keeps the same width with either shortcuts or comments. */
+  .hb-app.hbr-enabled > .hb-sidebar { flex-basis: clamp(300px, 29vw, 370px); }
+  .hb-app.hbr-docked > .hb-sidebar > .hb-contents { display: none; }
+  .hb-app .hbr-panel[open] {
+    position: static;
+    width: 100%;
+    max-height: calc(100vh - 64px);
+    max-height: calc(100dvh - 64px);
+    margin: 0;
+    border-radius: 6px;
+  }
+}
+@media (max-width: 991px) {
+  html:has(.hb-app .hbr-panel:modal) { overflow: hidden; }
+  .hb-app .hbr-panel[open] {
+    position: fixed;
+    inset: 0 0 0 auto;
+    width: min(100%, 480px);
+    height: 100vh;
+    height: 100dvh;
+    margin: 0;
+    border: 0;
+  }
+  .hb-app .hbr-header { padding-top: max(12px, env(safe-area-inset-top)); }
+  .hb-app .hbr-panel-body { padding-bottom: max(14px, env(safe-area-inset-bottom)); }
+  .hb-app .hbr-anchors .btn, .hb-app .hbr-panel .btn { min-height: 44px; }
+}
+@media print {
+  .hb-app .hbr-launch, .hb-app .hbr-anchors, .hb-app .hbr-panel[open] { display: none !important; }
+}

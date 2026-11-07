@@ -31,6 +31,7 @@ Before switching computers, have any approved changes committed and pushed. On t
 ## Review
 
 - Open `dist/index.html` to browse the handbook. Internet access is needed for the live site CSS.
+- For a shared review with comments and image attachments, build the separate [IIS review package](staging/README.md). Comments and reviewer uploads are not part of the ordinary preview or the Joomla import.
 - The desktop sidebar stays visible while scrolling. Below 992px it becomes a sticky, collapsible shortcut menu. Below 601px the preview's global menu also collapses.
 - Open section headings stay visible while reading that section. Once pinned, they shrink to one line showing the section number and main caption, and slide out as the section ends. They remain compact offscreen to avoid a height change at the lower boundary. Phone headings sit beneath the shortcuts bar. The full heading returns when scrolling back to the start. Long captions use an ellipsis visually; their complete text remains accessible.
 - `editorial/responsive-preview.html` loads the actual pages in 390px and 320px frames for phone review.
@@ -80,7 +81,7 @@ The web photos preserve the complete supplied images and link to larger views. W
 
 The editorial pass of October 17, 2026 keeps orientation, club rules, safety, checkout, dock handling, recovery, and the readiness checklist in that order. Section 02 now groups the links to rules, conduct, ratings, boundaries, fleet, and hours; section 01 no longer repeats them or jumps into technique. Section 04 retains the accepted checkout workflow and photos.
 
-Fabian's latest decision is to retain the handbook's instructional text, anatomy/glossary, original reference images, and accepted color diagrams. Existing CSC lesson links are supplementary. We will review the main site's other pages later and then decide whether a content merge is needed. Current club policies, rating requirements, sailing areas, and hours continue to link to maintained resources. Downwind comes before Jibe, with optional higher-wind practice at the end. Historical instruction still requires review and has not been approved as 2026 club policy.
+After comparing the two versions, Fabian decided to keep CSC-specific procedures and new diagrams here and link to the existing 10-Step Guide for shared sailing lessons and terminology. The existing CSC site is untouched. Current club policies, rating requirements, sailing areas, and hours continue to link to maintained resources. Downwind comes before Jibe, with optional higher-wind practice at the end. Historical local instruction still requires review and has not been approved as 2026 club policy.
 
 Per-section Next footer links have been removed at Fabian's request. Chapter tabs, sidebar shortcuts, and navigation between chapters remain. Optional related links exclude the following section and destinations already linked in the prose; shared club resources are presented in their relevant sections.
 
